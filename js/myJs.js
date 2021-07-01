@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Mày trốn không được đâu con chai à, tu be con khình niu ";
+    var text = " Định Nói Gì Thì Nhắn Tin Mình hihi ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
