@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa :3',
+        title: ' Đị..t cụ mày nhớ! ',
+        text: ' tao chờ ngày này lâu rồi đấyyyyy cmmmm:)) ',
         imageUrl: '',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Hổng từ chối đượccccccccc :3 iu cậu ";
+    var text = " Mày trốn không được đâu con chai à, tu be con khình niu ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nếu tớ tỏ tình thì cậu có đồng ý hong :3',
+        title: 'Ayyy da, nếu nhậu có nhậu không anh chai ',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,20 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Không Nhậu Mày",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Tất nhiên là có rùi <3'
+        confirmButtonText: ' Tới Công Chuyện Lun '
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Okiiiii lun ',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 3000',
-                text: "Bấm xong thì nhớ bấm inbox nhaaaa :3 iu",
+                title: ' Cho cái Hẹn nhé anh chai ',
+                text: "Bấm xong thì nhớ bấm inbox nhaaaa ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com/CallmeBot206';
