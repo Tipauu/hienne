@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: ' Đị..t cụ mày nhớ! ',
-        text: ' tao chờ ngày này lâu rồi đấyyyyy cmmmm:)) ',
+        title: ' Chồ Các Bạn Trong Xóm Nhà Lá Nhá...hihi ',
+        text: ' Các Bạn Có Rãnh Thì Bấm Oke Nhớ ',
         imageUrl: '',
         imageWidth: 300,
         imageHeight: 300,
@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('../sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Ayyy da, nếu nhậu có nhậu không anh chai ',
+        title: 'Thứ 7 làm kèo trà chanh được không mụa ngườiiii ',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Nhập đi, chờ chi :3'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='có điều gì thì cứ nói vào đây nhé'>",
         background: '#fff url("../img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,23 +109,23 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Không Nhậu Mày",
+        cancelButtonText: "Mình Bận Lắm,,,hic",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: ' Tới Công Chuyện Lun '
+        confirmButtonText: ' Ô Cơ Lun, Hẹn Thứ 7 '
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun ',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: ' Cho cái Hẹn nhé anh chai ',
-                text: "Bấm xong thì nhớ bấm inbox nhaaaa ",
+                title: ' Không Được Xu Cà Na Đâu Nhớ:))',
+                text: "Cần Gì Liên Hẹ Mình Nhé, Cứ Bấm Oke Là Được ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com/CallmeBot206';
+                    window.location = 'https://www.facebook.com/tipauu.16.09/';
                   }
             })
         }
